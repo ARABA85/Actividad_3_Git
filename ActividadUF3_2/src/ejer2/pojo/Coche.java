@@ -7,6 +7,7 @@ public class Coche {
 	private String matricula;
 	private String modelo;
 	private String marca;
+	Motor potencia;
 	
 	
 	
@@ -65,6 +66,21 @@ public class Coche {
 	public void setMarca(String marca) {
 		this.marca = marca;
 	}
+
+
+	// los setter y getter de potencia de la clase motor
+
+	public Motor getPotencia() {
+		return potencia;
+	}
+
+
+
+	public void setPotencia(Motor potencia) {
+		this.potencia = potencia;
+	}
+	
+	
 	
 	
 	
