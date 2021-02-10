@@ -7,7 +7,11 @@ public class Coche {
 	private String matricula;
 	private String modelo;
 	private String marca;
+
 	private int kilometros;
+
+	Motor potencia;
+
 	
 	
 	
@@ -70,15 +74,34 @@ public class Coche {
 
 
 
+
 	public int getKilometros() {
+		
+	
 		return kilometros;
+		
 	}
+
+	// los setter y getter de potencia de la clase motor
+
+	public Motor getPotencia() {
+		return potencia;
+
+	}
+
 
 
 
 	public void setKilometros(int kilometros) {
 		this.kilometros = kilometros;
 	}
+
+	public void setPotencia(Motor potencia) {
+		this.potencia = potencia;
+	}
+	
+	
+
 	
 	
 	
