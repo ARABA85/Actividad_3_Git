@@ -5,13 +5,20 @@ public class Motor {
 	private int id;
 	private String tipoMotor;
 	private String potencia;
+	private int duracion;
 	
 	
-	public Motor(int id, String tipoMotor, String potencia) {
+	public Motor(int id, String tipoMotor, String potencia,int duracion) {
 		
 		this.id = id;
 		this.tipoMotor = tipoMotor;
 		this.potencia = potencia;
+		this.duracion =duracion;
+	}
+
+
+	public int getDuracion() {
+		return duracion;
 	}
 
 
