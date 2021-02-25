@@ -8,6 +8,7 @@ public class Coche {
 	private String modelo;
 	private String marca;
 	private double precio;
+	private  String color;
 
 	private int kilometros;
 
@@ -16,7 +17,7 @@ public class Coche {
 	
 	
 	
-	public Coche(int id, String matricula, String modelo, String marca,int kilometros,double precio) {
+	public Coche(int id, String matricula, String modelo, String marca,int kilometros,double precio, String color) {
 	
 		this.id = id;
 		this.matricula = matricula;
@@ -24,6 +25,8 @@ public class Coche {
 		this.marca = marca;
 		this.kilometros = kilometros;
 		this.precio= precio;
+		// Pongo el nuevo atributo  color para completar la lista de lo que tiene un coche 
+		this.color= color;
 	}
 
 
