@@ -2,7 +2,7 @@ package ejer2.pojo;
 // practicas en clase
 public class Coche {
 
-	
+// aqui declaro mis variables 	
 	private int id;
 	private String matricula;
 	private String modelo;
