@@ -1,5 +1,5 @@
 package ejer2.pojo;
-// practicas en clase
+// practicas en clase muy feas pero muy interesantes
 public class Coche {
 
 // aqui declaro mis variables 	
