@@ -1,5 +1,5 @@
 package ejer2.pojo;
-
+// practicas en clase
 public class Coche {
 
 	
